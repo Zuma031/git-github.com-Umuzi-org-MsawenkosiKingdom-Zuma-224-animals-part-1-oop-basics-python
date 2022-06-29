@@ -11,16 +11,16 @@ class Animal:
 
 
 class Dog(Animal):
-    def __init__(self, __name__="Rax"):
-        self.name = __name__
+    def __init__(self, name = "Rax"):
+        self.name = name
 
     def sound(self):
         return "Bark"
 
 
 class Cat(Animal):
-    def __init__(self, __name__="Stormy"):
-        self.name = __name__
+    def __init__(self, name = "Stormy"):
+        self.name = name
 
     def sound(self):
         return "Meow"
